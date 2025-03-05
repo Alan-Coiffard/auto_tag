@@ -1,0 +1,155 @@
+{
+    "type": {
+        "Portrait": [
+            "portrait",
+            "autoportrait",
+            "couple",
+            "famille",
+            "corporate"
+        ],
+        "Paysage": [
+            "nature",
+            "montagne",
+            "plage",
+            "coucher de soleil",
+            "urbain"
+        ],
+        "Reportage": [
+            "documentaire",
+            "journalisme",
+            "street photography",
+            "vie quotidienne"
+        ],
+        "Événementiel": [
+            "mariage",
+            "anniversaire",
+            "concert",
+            "festival"
+        ],
+        "Mode": [
+            "fashion",
+            "éditorial",
+            "studio",
+            "défilé"
+        ],
+        "Sport": [
+            "action",
+            "extrême",
+            "compétition",
+            "mouvement"
+        ],
+        "Animalière": [
+            "faune",
+            "animaux domestiques",
+            "oiseaux",
+            "safari"
+        ],
+        "Macro": [
+            "insectes",
+            "fleurs",
+            "détails"
+        ],
+        "Architecture": [
+            "bâtiments",
+            "monuments",
+            "design intérieur",
+            "minimalisme"
+        ],
+        "Astrophotographie": [
+            "ciel étoilé",
+            "lune",
+            "voie lactée",
+            "éclipse"
+        ]
+    },
+    "ambiance": {
+        "Noir et blanc": [
+            "monochrome",
+            "contraste",
+            "rétro"
+        ],
+        "Vintage": [
+            "grain",
+            "sépia",
+            "nostalgie"
+        ],
+        "Minimaliste": [
+            "épuré",
+            "espace négatif",
+            "sobriété"
+        ],
+        "Abstrait": [
+            "formes",
+            "textures",
+            "expérimental"
+        ],
+        "Lumineux": [
+            "high-key",
+            "éclatant",
+            "coloré"
+        ],
+        "Sombre": [
+            "low-key",
+            "dramatique",
+            "mystérieux"
+        ]
+    },
+    "moment": {
+        "Matin": [
+            "lever du soleil",
+            "brume"
+        ],
+        "Soir": [
+            "coucher de soleil",
+            "heure dorée"
+        ],
+        "Nuit": [
+            "néons",
+            "pose longue",
+            "étoiles"
+        ],
+        "Saisons": [
+            "printemps",
+            "été",
+            "automne",
+            "hiver"
+        ]
+    },
+    "technique": {
+        "Longue exposition": [
+            "filé de lumière",
+            "mouvements"
+        ],
+        "HDR": [
+            "plage dynamique élevée"
+        ],
+        "Drone": [
+            "vue aérienne",
+            "panoramique"
+        ],
+        "Light painting": [
+            "dessins lumineux",
+            "effets spéciaux"
+        ]
+    },
+    "sujet": {
+        "Enfants": [
+            "innocence",
+            "jeux"
+        ],
+        "Couples": [
+            "amour",
+            "complicité"
+        ],
+        "Groupes": [
+            "amis",
+            "équipes",
+            "rassemblements"
+        ],
+        "Expressions": [
+            "joie",
+            "tristesse",
+            "colère"
+        ]
+    }
+}

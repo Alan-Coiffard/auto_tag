@@ -1,0 +1,28 @@
+{
+    "./images/test\\hero_image_1.jpg": [
+        {
+            "category": "type",
+            "subcategory": "Animalière",
+            "tag": "oiseaux",
+            "prob": 0.8934718370437622
+        },
+        {
+            "category": "type",
+            "subcategory": "Astrophotographie",
+            "tag": "lune",
+            "prob": 0.9676685333251953
+        },
+        {
+            "category": "technique",
+            "subcategory": "HDR",
+            "tag": "plage dynamique élevée",
+            "prob": 1.0
+        },
+        {
+            "category": "technique",
+            "subcategory": "Light painting",
+            "tag": "effets spéciaux",
+            "prob": 0.8019027709960938
+        }
+    ]
+}

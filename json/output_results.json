@@ -1,0 +1,259 @@
+{
+    "./images/test\\hero_image_1.jpg": [
+        {
+            "category": "type",
+            "subcategory": "Portrait",
+            "probability": {
+                "portrait": 0.1616433709859848,
+                "autoportrait": 0.03496256470680237,
+                "couple": 0.25158408284187317,
+                "famille": 0.3105570375919342,
+                "corporate": 0.24125297367572784
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Paysage",
+            "probability": {
+                "nature": 0.1385134607553482,
+                "montagne": 0.289256751537323,
+                "plage": 0.1019425019621849,
+                "coucher de soleil": 0.1108880341053009,
+                "urbain": 0.3593992590904236
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Reportage",
+            "probability": {
+                "documentaire": 0.054949961602687836,
+                "journalisme": 0.008869175799190998,
+                "street photography": 0.2299937754869461,
+                "vie quotidienne": 0.7061871290206909
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Événementiel",
+            "probability": {
+                "mariage": 0.4559512734413147,
+                "anniversaire": 0.3150358498096466,
+                "concert": 0.08042033761739731,
+                "festival": 0.14859260618686676
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Mode",
+            "probability": {
+                "fashion": 0.054575055837631226,
+                "éditorial": 0.28309398889541626,
+                "studio": 0.0906408429145813,
+                "défilé": 0.571690022945404
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Sport",
+            "probability": {
+                "action": 0.1551474630832672,
+                "extrême": 0.012196510098874569,
+                "compétition": 0.17369197309017181,
+                "mouvement": 0.6589640378952026
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Animalière",
+            "probability": {
+                "faune": 0.0812620148062706,
+                "animaux domestiques": 0.02495589293539524,
+                "oiseaux": 0.8934718370437622,
+                "safari": 0.0003103137423750013
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Macro",
+            "probability": {
+                "insectes": 0.4617824852466583,
+                "fleurs": 0.011301857419312,
+                "détails": 0.5269156694412231
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Architecture",
+            "probability": {
+                "bâtiments": 0.03156328201293945,
+                "monuments": 0.5710787177085876,
+                "design intérieur": 0.03359932079911232,
+                "minimalisme": 0.3637586832046509
+            }
+        },
+        {
+            "category": "type",
+            "subcategory": "Astrophotographie",
+            "probability": {
+                "ciel étoilé": 0.019085831940174103,
+                "lune": 0.9676685333251953,
+                "voie lactée": 0.012873810715973377,
+                "éclipse": 0.0003718420339282602
+            }
+        },
+        {
+            "category": "ambiance",
+            "subcategory": "Noir et blanc",
+            "probability": {
+                "monochrome": 0.04383544251322746,
+                "contraste": 0.7788416743278503,
+                "rétro": 0.1773228943347931
+            }
+        },
+        {
+            "category": "ambiance",
+            "subcategory": "Vintage",
+            "probability": {
+                "grain": 0.6597585678100586,
+                "sépia": 0.3202919661998749,
+                "nostalgie": 0.01994948647916317
+            }
+        },
+        {
+            "category": "ambiance",
+            "subcategory": "Minimaliste",
+            "probability": {
+                "épuré": 0.122092604637146,
+                "espace négatif": 0.09394075721502304,
+                "sobriété": 0.7839666604995728
+            }
+        },
+        {
+            "category": "ambiance",
+            "subcategory": "Abstrait",
+            "probability": {
+                "formes": 0.40209174156188965,
+                "textures": 0.17009277641773224,
+                "expérimental": 0.4278154969215393
+            }
+        },
+        {
+            "category": "ambiance",
+            "subcategory": "Lumineux",
+            "probability": {
+                "high-key": 0.01573975570499897,
+                "éclatant": 0.5458299517631531,
+                "coloré": 0.4384302794933319
+            }
+        },
+        {
+            "category": "ambiance",
+            "subcategory": "Sombre",
+            "probability": {
+                "low-key": 0.09520215541124344,
+                "dramatique": 0.2977425158023834,
+                "mystérieux": 0.6070553064346313
+            }
+        },
+        {
+            "category": "moment",
+            "subcategory": "Matin",
+            "probability": {
+                "lever du soleil": 0.7681453227996826,
+                "brume": 0.2318546324968338
+            }
+        },
+        {
+            "category": "moment",
+            "subcategory": "Soir",
+            "probability": {
+                "coucher de soleil": 0.24590393900871277,
+                "heure dorée": 0.7540960311889648
+            }
+        },
+        {
+            "category": "moment",
+            "subcategory": "Nuit",
+            "probability": {
+                "néons": 0.21634216606616974,
+                "pose longue": 0.5445453524589539,
+                "étoiles": 0.2391124963760376
+            }
+        },
+        {
+            "category": "moment",
+            "subcategory": "Saisons",
+            "probability": {
+                "printemps": 0.030943550169467926,
+                "été": 0.024546248838305473,
+                "automne": 0.6359727382659912,
+                "hiver": 0.30853748321533203
+            }
+        },
+        {
+            "category": "technique",
+            "subcategory": "Longue exposition",
+            "probability": {
+                "filé de lumière": 0.6460398435592651,
+                "mouvements": 0.3539601266384125
+            }
+        },
+        {
+            "category": "technique",
+            "subcategory": "HDR",
+            "probability": {
+                "plage dynamique élevée": 1.0
+            }
+        },
+        {
+            "category": "technique",
+            "subcategory": "Drone",
+            "probability": {
+                "vue aérienne": 0.5753084421157837,
+                "panoramique": 0.4246915578842163
+            }
+        },
+        {
+            "category": "technique",
+            "subcategory": "Light painting",
+            "probability": {
+                "dessins lumineux": 0.19809718430042267,
+                "effets spéciaux": 0.8019027709960938
+            }
+        },
+        {
+            "category": "sujet",
+            "subcategory": "Enfants",
+            "probability": {
+                "innocence": 0.3242546319961548,
+                "jeux": 0.6757453680038452
+            }
+        },
+        {
+            "category": "sujet",
+            "subcategory": "Couples",
+            "probability": {
+                "amour": 0.7371492981910706,
+                "complicité": 0.26285070180892944
+            }
+        },
+        {
+            "category": "sujet",
+            "subcategory": "Groupes",
+            "probability": {
+                "amis": 0.23635633289813995,
+                "équipes": 0.061302393674850464,
+                "rassemblements": 0.7023412585258484
+            }
+        },
+        {
+            "category": "sujet",
+            "subcategory": "Expressions",
+            "probability": {
+                "joie": 0.310407817363739,
+                "tristesse": 0.28890010714530945,
+                "colère": 0.40069207549095154
+            }
+        }
+    ]
+}
