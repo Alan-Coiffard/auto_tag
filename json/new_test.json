@@ -1,0 +1,47 @@
+{
+    "category": [
+        "portrait",
+        "paysage",
+        "Mode",
+        "Sport",
+        "Animalier",
+        "Bird",
+        "Architecture",
+        "Astrophotographie"
+    ],
+    "ambiance": [
+        "Noir & blanc",
+        "Vintage",
+        "Minimaliste",
+        "Lumineux",
+        "Sombre",
+        "néons",
+        "lune"
+    ],
+    "Moment": [
+        "coucher de soleil",
+        "Matin",
+        "Brume",
+        "Heure d'orée",
+        "Nuit",
+        "été",
+        "hiver",
+        "automne",
+        "printemps",
+        "lever de soleil"
+    ],
+    "technique": [
+        "Longue exposition",
+        "plage dynamique élevée",
+        "Drone",
+        "Light painting",
+        "mouvement"
+    ],
+    "sujet": [
+        "Groupes",
+        "Emotions",
+        "Joie",
+        "tristesse",
+        "colère"
+    ]
+}

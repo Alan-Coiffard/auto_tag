@@ -16,5 +16,13 @@ what it will do is : first split your dataset in two
 - one for the trainning 
 - one for the testing
 (make sure you have a big enough dataset)
-the it will iterate the trainning 10 time (default var). It will then switch to test mode and test itself on the second part of the dataset finally it will show you the f1-score which indicate the percentage of fiability
+then it will iterate the trainning 10 time (default var). It will then switch to test mode and test itself on the second part of the dataset finally it will show you the f1-score which indicate the percentage of fiability
 There you can choose to save the model by giving it a name
+
+
+- tags.json
+- bing_search.py
+- label.py
+- to_dataframe.py
+- split_dataset.py
+- train.py

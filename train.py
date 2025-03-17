@@ -19,7 +19,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
-
+img_dir = "dataset"
 
 # Définition du Dataset personnalisé
 class ImageDataset(Dataset):
@@ -59,8 +59,8 @@ transform = transforms.Compose([
 ])
 
 # Créer les DataLoader pour l'entraînement et le test
-train_dataset = ImageDataset(csv_file='csv/train.csv', img_dir='dataset', transform=transform)
-test_dataset = ImageDataset(csv_file='csv/test.csv', img_dir='dataset', transform=transform)
+train_dataset = ImageDataset(csv_file='csv/train.csv', img_dir=img_dir, transform=transform)
+test_dataset = ImageDataset(csv_file='csv/test.csv', img_dir=img_dir, transform=transform)
 
 train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True)
 test_dataloader = DataLoader(test_dataset, batch_size=16, shuffle=False)
@@ -82,7 +82,13 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # Initialiser le modèle avec le nombre d'étiquettes que tu as (par exemple 20)
 num_labels = len(train_dataset.data.columns) - 1  # Supposons que la première colonne soit le nom de l'image
 model = MultiLabelResNet(num_labels=num_labels)
-model = model.to(device)  # Assurez-vous que le modèle est sur le bon appareil (GPU ou CPU)
+
+# Charger le modèle sauvegardé si un fichier est spécifié
+model_path = input("Entrez le chemin du modèle sauvegardé (laisser vide pour entraîner depuis zéro) : ")
+if model_path.strip() != "":
+    model.load_state_dict(torch.load(model_path))
+    print(f"Modèle chargé depuis {model_path} !")
+model = model.to(device)
 
 
 # Définir l'optimizer et la fonction de perte
@@ -92,6 +98,7 @@ criterion = nn.BCEWithLogitsLoss()  # Binary Cross-Entropy pour la classificatio
 # Scheduler pour ajuster le taux d'apprentissage
 scheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
 
+from percent import percent_complete
 # Fonction pour entraîner le modèle
 def train_model(model, train_dataloader, criterion, optimizer, scheduler, num_epochs=10):
     for epoch in range(num_epochs):
@@ -101,7 +108,9 @@ def train_model(model, train_dataloader, criterion, optimizer, scheduler, num_ep
         for inputs, labels in train_dataloader:
             cls()
             print(f"Epoch [{epoch+1}/{num_epochs}]")
-            print("Progression : ", i, "/", len(train_dataloader))
+            print("Running loss : ", running_loss)
+            percent_complete(i, len(train_dataloader))
+            
             # Now, to clear the screen
             i = i+1
             inputs, labels = inputs.to(device), labels.to(device)
@@ -128,8 +137,8 @@ def train_model(model, train_dataloader, criterion, optimizer, scheduler, num_ep
     print("Entraînement terminé !")
 
 # Entraîner le modèle
-train_model(model, train_dataloader, criterion, optimizer, scheduler, num_epochs=20)
-
+train_model(model, train_dataloader, criterion, optimizer, scheduler, num_epochs=10)
+print("Start trainning...")
 
 from sklearn.metrics import f1_score
 import numpy as np

@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Charger le fichier labels.json
-with open('./json/labels.json', 'r') as f:
+with open('./json/new_try_labels.json', 'r') as f:
     data = json.load(f)
 
 # Préparer les données pour le DataFrame
