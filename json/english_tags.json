@@ -1,0 +1,48 @@
+{
+    "category": [
+        "Portrait",
+        "Landscape",
+        "Weddings",
+        "Sports",
+        "Pets",
+        "Wildlife",
+        "Bird",
+        "Architecture",
+        "Astrophotography"
+    ],
+    "ambiance": [
+        "Black & White",
+        "Vintage",
+        "Minimalist",
+        "Bright",
+        "Dark",
+        "Neons",
+        "Moon"
+    ],
+    "Moment": [
+        "Sunset",
+        "Morning",
+        "Fog",
+        "Golden Hour",
+        "Night",
+        "Summer",
+        "Winter",
+        "Autumn",
+        "Spring",
+        "Sunrise"
+    ],
+    "technique": [
+        "Long Exposure",
+        "High Dynamic Range",
+        "Drone",
+        "Light Painting",
+        "Motion"
+    ],
+    "subject": [
+        "Groups",
+        "Emotions",
+        "Joy",
+        "Sadness",
+        "Anger"
+    ]
+}

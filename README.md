@@ -1,28 +1,65 @@
-#How to use
+# AI Tag Trainer
 
-create a dataset
-- take a look at "tags" :
-this will be the list of tags for your ai
-you can modify it by adding/deleting/modifying categories, subcategories or tags 
-- take a look in bing_search : this function will download a dataset of image using the structure of "tags.json"
-- change the output dir if needed
-- make sure you don't modify tags.json name else you want to modify the opened file
-you can also provide with a bigger numbers of download
-- Once you donne with the setup of your dataset structurre and fetching its content, you can create it. To do this you launch label.py (make sure you have the right folder to read)
-- Then you use to_dataframe.py to create the .csv which will be used by you trainning
-Once you have that you're ready to train your AI
-To do so launch "train.py"
-what it will do is : first split your dataset in two
-- one for the trainning 
-- one for the testing
-(make sure you have a big enough dataset)
-then it will iterate the trainning 10 time (default var). It will then switch to test mode and test itself on the second part of the dataset finally it will show you the f1-score which indicate the percentage of fiability
-There you can choose to save the model by giving it a name
+This project aims to create a dataset for training an AI model to tag pictures.
+
+## How It Works
+To train an AI model, you first need to create a dataset. This process involves the following steps:
+
+1. **Fetch a list of URLs** for each tag based on the desired `SAMPLE_SIZE`.
+2. **Download the images** using the collected URLs.
+3. **Create the dataset** from the downloaded images.
+4. **Train the AI model** using the generated dataset.
+
+## Steps to Generate the Dataset
+
+1. **Create a JSON file** listing all the tags (see `english_tags.json`).
+2. **Configure the `.env` file** to set the required values. Modify them if necessary.
+3. **Fetch URLs** by running:
+   ```sh
+   python fetch_urls.py
+   ```
+4. **Download images** by running:
+   ```sh
+   python download.py
+   ```
+5. **Verify the number of downloaded files** per tag by running:
+   ```sh
+   python verify_files.py
+   ```
+   - If the count is incorrect, check the `json/list_images.json` file and make necessary adjustments.
+6. **Create the dataset**:
+   - Run the labeling script:
+     ```sh
+     python label.py
+     ```
+   - Convert data into a structured format:
+     ```sh
+     python to_dataframe.py
+     ```
+   - Split the dataset into training and testing subsets:
+     ```sh
+     python split_dataset.py
+     ```
+
+## Output
+Once all steps are completed, you will have a fully prepared dataset, including:
+- Image files
+- `dataset.csv`
+- `train.csv` and `test.csv` datasets
+
+## Train your model
+
+Finally, **train the AI model** by running:
+   ```sh
+   python train.py
+   ```
+
+This will generate a trained model that you can use later.
+
+You are now ready to train a new AI model!
 
 
-- tags.json
-- bing_search.py
-- label.py
-- to_dataframe.py
-- split_dataset.py
-- train.py
+## Authors
+
+- [@Alan Coiffard](https://www.github.com/Alan-Coiffard)
+

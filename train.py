@@ -101,6 +101,7 @@ scheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
 from percent import percent_complete
 # Fonction pour entraîner le modèle
 def train_model(model, train_dataloader, criterion, optimizer, scheduler, num_epochs=10):
+    losses = []
     for epoch in range(num_epochs):
         model.train()  # Mettre le modèle en mode entraînement
         running_loss = 0.0
@@ -108,6 +109,10 @@ def train_model(model, train_dataloader, criterion, optimizer, scheduler, num_ep
         for inputs, labels in train_dataloader:
             cls()
             print(f"Epoch [{epoch+1}/{num_epochs}]")
+            i = 0
+            for l in losses:
+                i=i+1
+                print(f'Loss (epoch {i}): {l}')
             print("Running loss : ", running_loss)
             percent_complete(i, len(train_dataloader))
             
@@ -127,7 +132,7 @@ def train_model(model, train_dataloader, criterion, optimizer, scheduler, num_ep
             optimizer.step()  # Mettre à jour les poids
 
             running_loss += loss.item()
-
+        losses.append(running_loss)
         # Afficher la perte après chaque époque
         print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_dataloader):.4f}")
         
