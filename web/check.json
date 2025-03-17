@@ -1,0 +1,209 @@
+{
+    "./catalogue\\26122020-26122020-_DSC6942.jpg": [
+        {
+            "category": "ambiance",
+            "tag": "Minimalist",
+            "prob": 0.08248335123062134
+        },
+        {
+            "category": "Moment",
+            "tag": "Summer",
+            "prob": 0.5331343412399292
+        }
+    ],
+    "./catalogue\\DSC07296.jpg": [
+        {
+            "category": "category",
+            "tag": "Architecture",
+            "prob": 0.06720001995563507
+        },
+        {
+            "category": "technique",
+            "tag": "Motion",
+            "prob": 0.8184651136398315
+        }
+    ],
+    "./catalogue\\vielle usine.jpg": [
+        {
+            "category": "category",
+            "tag": "Bird",
+            "prob": 0.10144557058811188
+        },
+        {
+            "category": "ambiance",
+            "tag": "Dark",
+            "prob": 0.8034524321556091
+        }
+    ],
+    "./catalogue\\_DSC0173.jpg": [
+        {
+            "category": "technique",
+            "tag": "Light Painting",
+            "prob": 0.29127979278564453
+        },
+        {
+            "category": "technique",
+            "tag": "Motion",
+            "prob": 0.2634114921092987
+        }
+    ],
+    "./catalogue\\_DSC0245-HDR.jpg": [
+        {
+            "category": "ambiance",
+            "tag": "Dark",
+            "prob": 0.28217026591300964
+        },
+        {
+            "category": "ambiance",
+            "tag": "Moon",
+            "prob": 0.25454607605934143
+        },
+        {
+            "category": "Moment",
+            "tag": "Morning",
+            "prob": 0.07488397508859634
+        }
+    ],
+    "./catalogue\\_DSC0281.jpg": [
+        {
+            "category": "ambiance",
+            "tag": "Vintage",
+            "prob": 0.11193477362394333
+        },
+        {
+            "category": "technique",
+            "tag": "Motion",
+            "prob": 0.16137778759002686
+        },
+        {
+            "category": "subject",
+            "tag": "Groups",
+            "prob": 0.08975812792778015
+        }
+    ],
+    "./catalogue\\_DSC0303.jpg": [
+        {
+            "category": "Moment",
+            "tag": "Summer",
+            "prob": 0.05171343311667442
+        },
+        {
+            "category": "subject",
+            "tag": "Sadness",
+            "prob": 0.43013641238212585
+        }
+    ],
+    "./catalogue\\_DSC0371.jpg": [
+        {
+            "category": "ambiance",
+            "tag": "Vintage",
+            "prob": 0.07032177597284317
+        },
+        {
+            "category": "ambiance",
+            "tag": "Minimalist",
+            "prob": 0.055103570222854614
+        },
+        {
+            "category": "ambiance",
+            "tag": "Neons",
+            "prob": 0.06304207444190979
+        },
+        {
+            "category": "technique",
+            "tag": "Long Exposure",
+            "prob": 0.511422872543335
+        }
+    ],
+    "./catalogue\\_DSC1162.jpg": [
+        {
+            "category": "category",
+            "tag": "Sports",
+            "prob": 0.7785061597824097
+        },
+        {
+            "category": "category",
+            "tag": "Architecture",
+            "prob": 0.2551977038383484
+        }
+    ],
+    "./catalogue\\_DSC3665.jpg": [
+        {
+            "category": "Moment",
+            "tag": "Fog",
+            "prob": 0.07858483493328094
+        },
+        {
+            "category": "technique",
+            "tag": "Long Exposure",
+            "prob": 0.566478967666626
+        },
+        {
+            "category": "technique",
+            "tag": "High Dynamic Range",
+            "prob": 0.11946580559015274
+        }
+    ],
+    "./catalogue\\_DSC4177.jpg": [
+        {
+            "category": "category",
+            "tag": "Architecture",
+            "prob": 0.31515663862228394
+        },
+        {
+            "category": "Moment",
+            "tag": "Sunset",
+            "prob": 0.061322785913944244
+        },
+        {
+            "category": "subject",
+            "tag": "Sadness",
+            "prob": 0.14264783263206482
+        }
+    ],
+    "./catalogue\\_DSC4322-HDR.jpg": [
+        {
+            "category": "ambiance",
+            "tag": "Dark",
+            "prob": 0.19366633892059326
+        },
+        {
+            "category": "technique",
+            "tag": "Drone",
+            "prob": 0.0636146292090416
+        },
+        {
+            "category": "technique",
+            "tag": "Light Painting",
+            "prob": 0.36839619278907776
+        }
+    ],
+    "./catalogue\\_DSC5876-2.jpg": [
+        {
+            "category": "category",
+            "tag": "Sports",
+            "prob": 0.6583276987075806
+        }
+    ],
+    "./catalogue\\_DSC6337.jpg": [
+        {
+            "category": "technique",
+            "tag": "Long Exposure",
+            "prob": 0.9204651713371277
+        }
+    ],
+    "./catalogue\\_DSC8888.jpg": [
+        {
+            "category": "category",
+            "tag": "Portrait",
+            "prob": 0.7412951588630676
+        }
+    ],
+    "./catalogue\\_DSC8894.jpg": [
+        {
+            "category": "ambiance",
+            "tag": "Moon",
+            "prob": 0.9189242124557495
+        }
+    ]
+}
